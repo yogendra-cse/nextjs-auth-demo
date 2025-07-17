@@ -1,7 +1,7 @@
 import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
 import Image from "next/image";
-const User = () => {
+export const User = () => {
     const router=useRouter();
     const { data: session } = useSession();
     if(!session){
@@ -19,4 +19,3 @@ const User = () => {
         )
     }
 }
-export default User;

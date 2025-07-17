@@ -1,6 +1,6 @@
 import React from 'react'
-import User from "../component/user"
-const user = () => {
+import {User} from "../component/user"
+const page = () => {
   return (
     <div>
         <User />
@@ -8,4 +8,4 @@ const user = () => {
   )
 }
 
-export default user;
+export default page;
